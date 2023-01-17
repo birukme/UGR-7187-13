@@ -1,0 +1,51 @@
+.grid-container{
+ 
+    display: grid;
+    height: 400px;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px 200px 80px;
+    justify-content: space-evenly;
+    
+}
+a{
+    background-color: green; color: blue ;
+}
+.topnav{
+    text-align: center;font-weight: 400;font-size: xx-large;
+    
+}
+
+
+
+
+.body{
+    background-color:bisque;
+
+}
+h1{color:red;text-align: center;font-size: 50px;
+    font-weight: bold;}
+.services{
+    color:green;
+}
+ol.a{
+    list-style: circle;padding: 20px;background-color:palevioletred;font-size: larger;
+}
+h2{
+    color: blue; 
+}
+.why_choose_us{
+    color: aqua; text-align: center;font-size: 40px;
+}
+tabl.two{
+    border-collapse: separate; border-spacing: 10px 30px;
+}
+table,td,th{
+    border: 1.5px solid blue;
+}
+.footer{
+    text-align: center; font-family: sans-serif ;background-color:blue ;
+}
+.aboutus{
+    text-align: center; font-family: ;
+}

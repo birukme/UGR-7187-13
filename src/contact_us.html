@@ -5,38 +5,67 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us</title>
+  <link rel="stylesheet" href="cssjs_about_us.css">
+
 </head>
 <body>
-   <divclass="topnav">
-    <header><a class="active" href="home.html">HOME</a>
+  <div class="header" ><h2>CONTACT US</h2></div>
+  <br>
+  
+    <div class="nav_menu">
+      <a  href="home.html">HOME</a>
           <a href="about_us.html">ABOUT US</a>
-          <a href="services.html">SERVICES</a>
-           </header>
-           <h1>Contact Us</h1>
+          <a href="services.html">SERVICES</a></div>
+          <br>          
+         <div class="row">
+              <div class="columnA">
+              
+                <p>
+                  <span class="cont_img"><img src="media/girl_img.jpg" alt="a girl who works in contact center"></span> 
+           <h2>Any Question?</h2>
+                </p>              
+         </div>
+         <div class="columnB">
           
-           <img src="media/girl_img.jpg" alt="a girl who works in contact center" width="150" height="160">
-           <h1>Any Question?</h1>
-           <h2>write down and send us</h2>
+          <p><h2>write down and send us</h2>
            <div class="container">
-            <form action="post">
+            <for action="post">
               <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+              <input type="text" id ="fname" class="fname" name="firstname" placeholder="Your name.."><br>
               <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+              <input type="text" class="lname" id="lname"name="lastname" placeholder="Your last name.."><br>
                    <label for="email">Email ID</label>
-              <input type="text" id="email" name="email" placeholder="Your email..."><br>
+              <input type="text" id="email" class="email" name="email" placeholder="Your email..."><br>
               <label for="country">Country</label>
-              <select id="country" name="country">
+              <select class="country" name="country">
                 <option value="australia">Australia</option>
                 <option value="canada">Canada</option>
                 <option value="usa">USA</option>
               </select><br>
-              <label for="subject">Message</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
-              <input type="submit" value="Submit">
+                  
+          </div>
+
+          </p>
+
+         </div>
+         <div class="columnC">
+        
+          <div class="submit">
+            <label for="subject">Message</label>
+              <textarea class="subject" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+              <div  class="btn"><button id="btn" class="submit" >Submit</button></div>
             </form>
           </div>
+         </div>
+          
+             </div> 
+          
+          <div class="footer">
           <footer>about  quick links free estimate</footer>
           <footer>copyright@2022my blog</footer>
+          </div>    
+          <script src="contact.js">
+
+          </script>
 </body>
 </html>
